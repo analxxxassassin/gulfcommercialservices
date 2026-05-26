@@ -20,9 +20,10 @@
     .team-img { width: 120px; height: 120px; border-radius: 50%; background: var(--light-warm); margin: 0 auto 1rem; border: 3px solid var(--gold); display: flex; align-items: center; justify-content: center; }
     .team-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--dark); }
     .team-card p { font-size: 0.82rem; color: var(--gold); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 0.3rem; }
-    @media (max-width: 900px) {
-      .about-grid { grid-template-columns: 1fr; }
-      .about-img { height: 300px; }
+    @media (max-width: 768px) {
+      .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .about-img { height: 260px; }
+      .about-img::before { display: none; }
       .values-grid, .team-grid { grid-template-columns: 1fr; }
     }
   </style>

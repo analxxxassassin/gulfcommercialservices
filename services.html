@@ -14,7 +14,8 @@
     .service-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 0.8rem; color: var(--dark); }
     .service-card p { font-size: 0.88rem; color: var(--muted); line-height: 1.7; margin-bottom: 1.2rem; }
     .service-link { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: #C1AB71; border-bottom: 1px solid #C1AB71; padding-bottom: 2px; }
-    @media (max-width: 900px) { .services-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 1024px) { .services-grid { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 768px) { .services-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
